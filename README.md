@@ -21,15 +21,15 @@ e) Rhombus
 
 3. Since the number of images are less, some data annotation is performed for training with YOLOv3 such as changing backgrounds, cropping and changing HSV values.  
 
-## Network Used (YOLOv3):
+## Network Used (YOLOv3):  
 
-The following possible networks can be used:
+The following possible networks can be used:  
 
 1. YOLOv3  
 2. SSD  
 3. Semantic Segmentation  
 
-Since YOLOv3 is most robust among all of the above and also good comparatively for small dataset, I have used YOLOv3 for training and detecting shapes in the images.
+Since YOLOv3 is most robust among all of the above and also good comparatively for small dataset, I have used YOLOv3 for training and detecting shapes in the images.  
 
 ## Framework used:  
 
@@ -44,14 +44,14 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
     |--predictions on test data  
 -- freezed weights   
 
-1. The /darknet/backup/ folder contains three different types of files:
+1. The /darknet/backup/ folder contains three different types of files:  
    a) customdata.data:- It contains number of classes, path to train and test file, path to customdata.names.  
    b) customdata.names:- It contains names of different classes for detection.  
    c) train.txt and test.txt files:- These files contain the path to the train and test images.  
    
-2. /darknet/cfg/ folder contains three files for YOLOv3:
-  a) custom.data
-  b) customdata.cfg which contains the architecture that we have used for the network.
+2. /darknet/cfg/ folder contains three files for YOLOv3:  
+  a) custom.data  
+  b) customdata.cfg which contains the architecture that we have used for the network.  
   
 ## Predictions:  
 
