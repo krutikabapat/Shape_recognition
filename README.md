@@ -1,5 +1,5 @@
 # Shape_recognition
-Deep Learning based Shape detection and counting
+Deep Learning based Shape detection and counting.  
 
 ## Problem statement
 Count or segment the number of Images in the test data, which contains the images of flowchart which has various shapes like
@@ -8,7 +8,7 @@ rectangle, square, circle, rhombus and ellipse.
 ## Solution
 Since we need the number of figures of each type in each flowchart, it is a localization and detection probelem and we have to solve it using object detection methods, which generates boundig box for each of the shape and total number of shapes of each category can be counted.  
 
-## Dataset
+## Dataset  
 
 1. There are 5 classes in the dataset:  
 a) Circle  
