@@ -38,10 +38,10 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
 ## Data organization:  
 
 --darknet  
-    --backup  
-    --cfg  
-    --data  
-    --predictions on test data  
+     --backup  
+     --cfg  
+     --data  
+     --predictions on test data  
 -- freezed weights   
 
 1. The /darknet/backup/ folder contains three different types of files:
