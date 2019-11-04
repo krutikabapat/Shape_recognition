@@ -1,0 +1,11 @@
+/home/krutika/Desktop/Object_Detection/images/train_sam/37141.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37041.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37090.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37040.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37161.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37174.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37154.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37079.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37060.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam/37123.jpg
+/home/krutika/Desktop/Object_Detection/images/train_sam//37080.jpg
