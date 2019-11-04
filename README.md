@@ -44,14 +44,14 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
     |--predictions on test data  
 -- freezed weights   
 
-1. The /darknet/backup/ folder contains three different types of files:  
+1. The ```/darknet/backup/``` folder contains three different types of files:  
    a) customdata.data:- It contains number of classes, path to train and test file, path to customdata.names.  
    b) customdata.names:- It contains names of different classes for detection.  
-   c) train.txt and test.txt files:- These files contain the path to the train and test images.  
+   c) ```train.txt``` and ``test.txt``` files:- These files contain the path to the train and test images.  
    
-2. /darknet/cfg/ folder contains three files for YOLOv3:  
-  a) custom.data  
-  b) customdata.cfg which contains the architecture that we have used for the network.  
+2. ```/darknet/cfg/``` folder contains three files for YOLOv3:  
+  a) ```custom.data```  
+  b) ```customdata.cfg``` which contains the architecture that we have used for the network.  
   
 ## Predictions:  
 
