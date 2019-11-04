@@ -55,7 +55,7 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
   
 ## Predictions:  
 
-1. The /darknet folder contains predictions.png images for different test images, when the network is trained for different number of epochs.  
+1. The ```python /darknet ``` folder contains predictions.png images for different test images, when the network is trained for different number of epochs.  
 
 ## Training:  
 
