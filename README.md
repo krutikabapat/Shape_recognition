@@ -17,9 +17,11 @@ c) Ellipse
 d) Square  
 e) Rhombus  
 
-2. As the .xml file annotations had only few class labels and the json folder contained .txt files which do not have bounding box annotations in the COCO/PASCAL_VOC dataset, I have generated annotations for 150 images in tha dataset manually using LabelImg software.  
+## Dataset generation:  
 
-3. Since the number of images are less, some data annotation is performed for training with YOLOv3 such as changing backgrounds, cropping and changing HSV values.  
+1. As the .xml file annotations had only few class labels and the json folder contained .txt files which do not have bounding box annotations in the COCO/PASCAL_VOC dataset, <b>I have generated annotations for 150 images in tha dataset manually using LabelImg software</b>.  
+
+2. Since the number of images are less, some data annotation is performed for training with YOLOv3 such as changing backgrounds, cropping and changing Hue, Saturation and Values.    
 
 ## Network Used (YOLOv3):  
 
