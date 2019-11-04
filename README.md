@@ -63,7 +63,7 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
 
 1. Since YOLOv3 requires good amount of training, running it on Google Colabs is not feasible as once run-time is finished the code has to run from scratch.   
 
-2. I have used the CPU for training. There are nearly 50,0000 iterations in the code and for the model to completely get trained on CPU, it will take around 6-7 days. I have attached the results of the predictions (which are good enough, when we consider 150 images for training and around 8 hours of traning on CPU).  
+2. <b>I have used the CPU for training. There are nearly 50,0000 iterations in the code and for the model to completely get trained on CPU, it will take around 6-7 days.</b> I have attached the results of the predictions (which are good enough, when we consider 150 images for training and around 8 hours of traning on CPU).  
 
 3. a) Momentum - 0.9  
    b) learning rate - 0.001  
