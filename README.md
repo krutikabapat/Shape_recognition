@@ -90,7 +90,18 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
  ./darknet detector test backup/customdata.data cfg/customdata.cfg darknet53.conv.74  '/path/to/test_image'  
  ```   
  
- 3. 
+ 3. For plotting the graphs of Loss vs Batch/Epochs:  
+ ```python  
+ python3 TrainLoss.py /path/to/train.log  
+ ```
+ 4. For saving the logs in the file <train.log> whilel training:  
+ ```python  
+ ./darknet detector train backup/customdata.data cfg/customdata.cfg darknet53.conv.74 >> backup/train.log  
+ ```
+ 
+
+
+ 
 
 
 
