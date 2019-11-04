@@ -81,14 +81,14 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
 ## How to run the files:  
 
 1. For training:  
-[python]  
+'''python   
  ./darknet detector train backup/customdata.data cfg/customdata.cfg darknet53.conv.74  
- [/python]
+'''   
  
  2. For testing:  
- [python]  
+ '''python   
  ./darknet detector test backup/customdata.data cfg/customdata.cfg darknet53.conv.74  '/path/to/test_image'  
- [/python]  
+ python  
  
  3. 
 
