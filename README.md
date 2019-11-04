@@ -57,7 +57,46 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
 
 1. The /darknet folder contains predictions.png images for different test images, when the network is trained for different number of epochs.  
 
-2. 
+## Training:  
+
+1. Since YOLOv3 requires good amount of training, running it on Google Colabs is not feasible as once run-time is finished the code has to run from scratch.   
+
+2. I have used the CPU for training. There are nearly 50,0000 iterations in the code and for the model to completely get trained on CPU, it will take around 6-7 days. I have attached the results of the predictions (which are good enough, when we consider 150 images for training and around 8 hours of traning on CPU).  
+
+3. a) Momentum - 0.9  
+   b) learning rate - 0.001  
+   c) max_batches - 500000  
+   d) activation - leaky  RELU
+   e) batch_size - 64  
+   f) num_of_classes - 05  
+   
+   
+## Improvements Required for best results:  
+
+1. Using a large dataset, around 1000 images minimum.  
+2. Changing activation and using Mish or Swish instead.  
+3. Changing the network configuration by changing the number of layers and using dilated convolutions.
+4. Using RetinaNet for localization task.  
+
+## How to run the files:  
+
+1. For training:  
+[python]  
+ ./darknet detector train backup/customdata.data cfg/customdata.cfg darknet53.conv.74  
+ [/python]
+ 
+ 2. For testing:  
+ [python]  
+ ./darknet detector test backup/customdata.data cfg/customdata.cfg darknet53.conv.74  '/path/to/test_image'  
+ [/python]  
+ 
+ 3. 
+
+
+
+
+
+
     
   
 
