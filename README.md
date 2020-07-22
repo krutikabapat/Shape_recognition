@@ -101,6 +101,10 @@ Since YOLOv3 is most robust among all of the above and also good comparatively f
  ./darknet detector train backup/customdata.data cfg/customdata.cfg darknet53.conv.74 >> backup/train.log  
  ```
  
+ ### References:    
+ 
+ 1. https://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/    
+ 2. https://pysource.com/2018/09/25/simple-shape-detection-opencv-with-python-3/    
 
 
  
